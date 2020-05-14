@@ -1,6 +1,7 @@
 {
     "name": "sfire-framework/sfire-localization",
     "description": "Provides a convenient way to retrieve strings in various languages, allowing you to easily support multiple languages within your application",
+    "homepage": "https://sfire.io",
     "keywords": [
         "framework",
         "sFire"
@@ -13,7 +14,9 @@
         }
     ],
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "sfire-framework/sfire-datacontrol": "1.0.*",
+        "sfire-framework/sfire-filecontrol": "1.0.*"
     },
     "require-dev": {
         "phpunit/phpunit": "^8"
