@@ -23,8 +23,8 @@ class Translation {
 
 
     /**
-     * Contains instance of Response
-     * @var Language
+     * Contains instance of self
+     * @var null|self
      */
     private static ?self $instance = null;
 
@@ -44,7 +44,7 @@ class Translation {
 
 
     /**
-     * Returns instance of the Translation object
+     * Returns instance of self
      * @return self
      */
     public static function getInstance(): self {
